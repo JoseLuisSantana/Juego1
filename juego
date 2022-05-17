@@ -1,0 +1,20 @@
+let opc = 0;
+var pts = 0
+
+var cor = "Correcto"
+var inc = "Incorrecto"
+alert ("Bienvenido a Mi Trivia")
+let Us1 = prompt("Como se LLama la consola donde salio la consola donde salio el primer god of war?" + "A)- PS2" +"B)- PSP"+ "C)- Game Cube ")
+if (Us1==='PS2'|| "A"|| "a")
+{
+    
+ prompt ("Correcto")
+ pts +1
+ prompt ("Mas un punto")
+}
+else
+{
+ prompt ("Incorrecto :(")
+ prompt()
+}
+
