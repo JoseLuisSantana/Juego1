@@ -1,20 +1,34 @@
 let opc = 0;
 var pts = 0
-
-var cor = "Correcto"
-var inc = "Incorrecto"
-alert ("Bienvenido a Mi Trivia")
 let Us1 = prompt("Como se LLama la consola donde salio la consola donde salio el primer god of war?" + "A)- PS2" +"B)- PSP"+ "C)- Game Cube ")
-if (Us1==='PS2'|| "A"|| "a")
-{
-    
+if (Us1 === "A"){ 
  prompt ("Correcto")
  pts +1
- prompt ("Mas un punto")
+ alert("Mas un punto")
 }
-else
-{
- prompt ("Incorrecto :(")
- prompt()
+else if(Us1 != "A"){
+    alert("Incorrecto")
 }
+let opc1 = prompt("Cual es la fecha de lanzamiento de la xbox 360? "+ "A)-15 de Diciembre de 2005 " +"B)- 8 Febrero de 2006"+ "C)- 9 Julio de 2007" + "D)-22 de noviembre de 2005")
+switch (opc1){
+    case opc1 === "A":
+    alert("Incorrecto  pero solo por el año te llevas un punto :)")
+    pts + 1
+    break
+
+    case opc1 ==="D":
+        alert("Correcto :)")
+        alert("+2 Puntos")
+        pts +2
+    break
+
+    case opc1 === "B":
+        alert("Incorrecto")
+    break
+    case opc === "C":
+        alert ("Incorrecto")
+
+    break
+}
+
 
